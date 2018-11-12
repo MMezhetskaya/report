@@ -1,0 +1,21 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="report.controller.View1" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					
+				<Panel id="__panel0">
+					
+				    <content>
+					
+				        <SearchField width="30%" placeholder="SearchField" id="__fieldSearch" showRefreshButton="true"/>
+					
+				    </content>
+					
+				</Panel>
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,43 @@
+/* header */
+#__page0-intHeader-BarPH {
+    background-color: #056696;
+}
+#__page0-title-inner {
+    color: white;
+    font-weight:600;
+} 
+
+/* search field */
+form#__xmlview0--__fieldSearch-F::before{
+	z-index:-1;
+}
+#__xmlview0--__fieldSearch {
+    float: right;
+}
+.sapMSFB {
+    transform: scale(-1, 1);
+    color: gray;
+    left: 10%;
+}
+.sapMSFB:after {
+    color: gray;
+}
+.sapMSFF{
+	outline:none;
+	border:none;
+	border-bottom: solid 1px gray;
+	background: transparent;
+	padding-right: 0;
+	padding-right: 0.625rem;
+}
+#__xmlview0--__fieldSearch-search {
+    left: 0;
+}
+#__xmlview0--__fieldSearch-I {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    right:0;
+}
+#__xmlview0--__fieldSearch-F::before{
+	display:none;
+}
